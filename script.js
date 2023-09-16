@@ -18,7 +18,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     function chimeBell() {
         bellSound.play();
-        setInterval(bellSound.play, 60 * 1000); // Play every minute after the initial chime
+        setInterval(() => {
+            bellSound.play();
+        }, 60 * 1000);
     }
 
     // Calculate milliseconds until the next minute
