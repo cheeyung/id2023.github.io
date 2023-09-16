@@ -1,6 +1,7 @@
 const currentTimeElement = document.getElementById('current-time');
 const bellSound = document.getElementById('bell-sound');
-const bellInterval = 20 * 60 * 1000; // 20 minutes in milliseconds
+// const bellInterval = 20 * 60 * 1000; // 20 minutes in milliseconds.
+// const bellInterval = 60 * 1000; // 1 minute in milliseconds.
 
 // Function to update the current time on the web page
 function updateCurrentTime() {
