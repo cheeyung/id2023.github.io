@@ -3,9 +3,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 98vh;
     background-image: url('background.jpeg');
-    background-size: fill;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
